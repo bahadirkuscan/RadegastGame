@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\ASUS\\IdeaProjects\\HW3\\src\\input.txt");
+        File file = new File("input.txt");
         Scanner scanner = new Scanner(file);
         int horizontal_length = scanner.nextInt();
         int vertical_length = scanner.nextInt();
